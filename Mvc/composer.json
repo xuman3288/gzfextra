@@ -1,0 +1,21 @@
+{
+    "name": "moln/gzfextra-mvc",
+    "license": "MIT",
+    "keywords": ["gzfextra","zendframework", "zf2", "extra"],
+    "description": "Zend framework 2 extra",
+    "authors": [
+        {
+            "name": "Moln",
+            "email": "xiemaomao520@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gzfextra\\Mvc\\": ""
+        }
+    },
+    "target-dir": "Gzfextra/Mvc",
+    "require": {
+        "php": ">=5.4"
+    }
+}

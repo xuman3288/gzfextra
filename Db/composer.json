@@ -1,0 +1,22 @@
+{
+    "name": "moln/gzfextra-db",
+    "license": "MIT",
+    "keywords": ["gzfextra","zendframework", "zf2", "extra"],
+    "description": "Zend framework 2 extra",
+    "authors": [
+        {
+            "name": "Moln",
+            "email": "xiemaomao520@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gzfextra\\Db\\": ""
+        }
+    },
+    "target-dir": "Gzfextra/Db",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zend-db": "2.*"
+    }
+}
