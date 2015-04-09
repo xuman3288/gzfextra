@@ -1,5 +1,10 @@
 {
     "name": "fly/gzfextra",
     "description": "extra for php",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload" : {
+        "psr-4" : {
+            "Gzfextra\\" : "src/Gzfextra"
+        }
+    }
 }
